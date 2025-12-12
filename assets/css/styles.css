@@ -41,3 +41,21 @@ footer {
   display: block;
   margin: 0 auto 30px;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  header { padding:60px 20px; }
+  h1 { font-size:2.2rem; }
+  h2 { font-size:1.4rem; }
+  section { padding:60px 20px; }
+  .services-grid { grid-template-columns:1fr; }
+  p { max-width:90%; }
+  .logo-tt { width:180px; margin-bottom:20px; }
+}
+
+@media (max-width: 480px) {
+  header { padding:40px 15px; }
+  h1 { font-size:1.9rem; }
+  h2 { font-size:1.2rem; }
+  .logo-tt { width:150px; }
+}
